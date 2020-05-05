@@ -1,0 +1,31 @@
+{
+  "name": "twemoji-svg-assets",
+  "version": "12.1.6",
+  "description": "Twitter Emoji SVG assets",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radicle-dev/twemoji-svg-assets.git"
+  },
+  "scripts": {
+    "postinstall": "cp assets/svg/*.svg $INIT_CWD/public/twemoji/"
+  },
+  "keywords": [
+    "emoji",
+    "DOM",
+    "parser",
+    "images",
+    "retina",
+    "Twitter",
+    "unicode"
+  ],
+  "author": {
+    "name": "radicle team",
+    "email": "dev@radicle.xyz",
+    "url": "https://radicle.xyz"
+  },
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/radicle-dev/twemoji-svg-assets/issues"
+  },
+  "homepage": "https://github.com/radicle-dev/twemoji-svg-assets#readme"
+}
