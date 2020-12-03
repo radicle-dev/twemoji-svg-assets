@@ -7,7 +7,7 @@
     "url": "git://github.com/radicle-dev/twemoji-svg-assets.git"
   },
   "scripts": {
-    "postinstall": "cp assets/svg/*.svg $INIT_CWD/public/twemoji/"
+    "postinstall": "cp assets/svg/*.svg ../../public/twemoji/"
   },
   "keywords": [
     "emoji",
